@@ -1,0 +1,110 @@
+body{
+
+ background-color: whitesmoke;
+ color: rgb(60,60,60);
+ font-size: 17px;
+}
+
+h2,body{
+
+	font-family: Helvetica;
+}
+
+
+
+h1 {
+
+ color: black;
+ font-size: 32px;
+}
+
+
+
+#presentation {
+
+color: white;
+font-family: initial;
+}
+
+
+
+h2 {
+
+ color: rbg(100,100,100);
+ font-size: 24px;
+}
+
+
+
+
+a{
+	color: black;
+	text-decoration: none;
+	transition: color 0.5s ease;
+}
+
+
+a:hover {
+
+ color: grey;
+ text-decoration: none;
+}
+
+
+.img-circle{
+
+ border-radius: 50%;
+ width: 200px; 
+}
+
+
+
+
+.btn-blue{
+background-color: indianred;
+color: white ;
+padding: 15px 20px;
+border-radius: 25px;
+}
+
+
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-links {
+list-style: none;
+padding-left: 0px;
+}
+
+
+.list-links li {
+display: inline;
+padding: 200px;
+}
+
+
+.list-links i {
+font-size: 20px;
+padding: 50px;
+}
+
+#introduction p {
+margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 900px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+.container{
+  width: 400px;
+  }
+}
